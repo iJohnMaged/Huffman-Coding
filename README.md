@@ -1,10 +1,12 @@
 # Huffman Compression
 
-Python Implementation of Huffman-Coding
+Python Implementation of Huffman-Coding for a college project.
+You can compress and decompress folders and binary files using this implementation.
 
 * Usage
   ```bash
-  python main.py [input file] -m [compress/decompress]
+  # python main.py [input file] -m [compress/decompress]
+  Example: python main.py text.txt -m compress
   ```
   
 ## File Header Format
@@ -20,3 +22,7 @@ N | Encoded Huffman-Tree
 4 | File Name (Including parent folder, if compressing a folder.)
 4 | K: Length of the encoded file data
 K | Encoded file data
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
